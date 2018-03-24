@@ -46,20 +46,20 @@ Visualizers也是estimators（从数据中习得的对象），其主要任务�
 - :doc:`ROC/AUC Curves <api/classifier/rocauc>`: 特征曲线和ROC曲线子下的面积
 - :doc:`Confusion Matrices <api/classifier/confusion_matrix>`: 对分类决定进行视图描述
 
-Regression Visualization
+回归可视化
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 - :doc:`api/regressor/peplot`: 沿着目标区域对模型进行细分
 - :doc:`api/regressor/residuals`: 显示训练数据和测试数据中残差的差异
 - :doc:`api/regressor/alphas`: 显示不同alpha值选择对正则化的影响
 
-Clustering Visualization
+聚类可视化
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 - :doc:`K-Elbow Plot <api/cluster/elbow>`: 用肘部法则或者其他指标选择k值
 - :doc:`Silhouette Plot <api/cluster/silhouette>`: 通过对轮廓系数值进行视图来选择k值
 
-Text Visualization
+文本可视化
 ~~~~~~~~~~~~~~~~~~
 
 - :doc:`Term Frequency <api/text/freqdist>`: 对词项在语料库中的分布频率进行可视化

@@ -64,23 +64,24 @@ Yellowbrick和Python 2.7及以后版本兼容，但是倾向于使用Python 3.5�
 
     $ pip install yellowbrick
 
-Note that Yellowbrick is an active project and routinely publishes new releases with more visualizers and updates. In order to upgrade Yellowbrick to the latest version, use pip as follows.
+需要注意的是Yellowbrick是一个在建的项目，目前常规发布新的版本，并且每一个新版本都将会有新的可视化功能更新。为了将Yellowbrick升级到最新版本，你可以用如下pip命令.
 
     $ pip install -u yellowbrick
 
-You can also use the `-u` flag to update Scikit-Learn, matplotlib, or any other third party utilities that work well with Yellowbrick to their latest versions.
+你也可以用 `-u` 标记对Scikit-Learn，matplotlib或者其他和Yellowbrick兼容的第三方包进行升级.
 
-If you're using Windows or Anaconda, you can take advantage of the conda utility to install Yellowbrick:
+如果你使用的是Windows或者Anaconda，你也可以充分利用conda:
 
     conda install -c districtdatalabs yellowbrick
 
-Note, however, that there is a [known bug](https://github.com/DistrictDataLabs/yellowbrick/issues/205) installing Yellowbrick on Linux with Anaconda.
+然而需要注意的是，在Linux上用Anaconda安装matplotlib时有一个 [已知的漏洞](https://github.com/DistrictDataLabs/yellowbrick/issues/205) 。
 
-## Using Yellowbrick
+## 使用Yellowbrick
 
+为了更好得配合Scikit-Learn一起使用，我们特意对Yellowbrick API进行了一些特殊设计。如下是一个比较典型的使用Scikit-Learn和Yellowbrick的工作流程。
 The Yellowbrick API is specifically designed to play nicely with Scikit-Learn. Here is an example of a typical workflow sequence with Scikit-Learn and Yellowbrick:
 
-### Feature Visualization
+### 特征可视化
 
 In this example, we see how Rank2D performs pairwise comparisons of each feature in the data set with a specific metric or algorithm, then returns them ranked as a lower left triangle diagram.
 
