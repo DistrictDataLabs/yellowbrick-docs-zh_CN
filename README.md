@@ -10,7 +10,7 @@
 **帮助选择机器学习模型的可视化分析和诊断工具**
 
 ![沿着黄砖路走下去](docs/images/yellowbrickroad.jpg)
-Image by [Quatro Cinco](https://flic.kr/p/2Yj9mj), 经许可使用, Flickr Creative Commons.
+摄影 [Quatro Cinco](https://flic.kr/p/2Yj9mj), 经许可使用, Flickr Creative Commons.
 
 这个README是针对开发者的指南，如果你对Yellowbrick感兴趣，请查看我们的[文档](http://www.scikit-yb.org/).
 
@@ -158,6 +158,6 @@ $ python -m tests.images -C tests/test_visualizer.py
 $ python -m tests.images tests/test_classifier/*   
 ```
 
-然而推荐的的方法是有针对性针进行测试，而不是对整个目录进行更新。
+然而推荐的的方法是有针对性进行测试，而不是对整个目录进行更新。
 
 翻译：`Juan L. Kehoe <https://juan0001.github.io/>`_
