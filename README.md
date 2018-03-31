@@ -160,4 +160,4 @@ $ python -m tests.images tests/test_classifier/*
 
 然而推荐的的方法是有针对性进行测试，而不是对整个目录进行更新。
 
-翻译：`Juan L. Kehoe <https://juan0001.github.io/>`_
+翻译：[Juan L. Kehoe](https://juan0001.github.io/)
